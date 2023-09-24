@@ -1,0 +1,22 @@
+.gallery_container {
+  width: 100%;
+  height: auto;
+  padding: 80px 25px;
+}
+
+.gallery_center {
+  width: 100%;
+  height: auto;
+}
+
+.gallery_header {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .gallery_center {
+    width: var(--pc-size);
+    margin: 0 auto;
+  }
+}
